@@ -1,0 +1,20 @@
+.plot, .plotWithControls
+  @extend .static
+  display: inline-block
+.plotWithControls
+  margin: 0.5rem
+
+.plot-params
+  width: 15rem
+  input, span
+    font-size: 0.6rem !important
+    padding: 0.1rem !important
+    height: 1rem !important
+    margin: 0!important
+    line-height: 1 !important
+  input + span, input + input, span + input, span + span
+    border-left: none !important
+  span
+    @extend .static
+    padding: 0.1rem 0.3rem !important
+
