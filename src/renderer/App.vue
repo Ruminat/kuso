@@ -114,8 +114,8 @@ export default {
   // Когда компонент загрузился.
   async mounted () {
     console.log('mounted')
-    this.wav()
-    // this.dat()
+    // this.wav()
+    this.dat()
   }
 }
 </script>
